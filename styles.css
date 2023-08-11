@@ -84,4 +84,37 @@ footer {
     width: 100%; /* Preenche a largura do formulário */
 }
 
+/* styles.css */
+
+/* ... (seus estilos existentes) ... */
+
+.captacao button {
+    display: block;
+    margin-bottom: 1em; /* Espaçamento entre os campos */
+    width: 100%; /* Preenche a largura do formulário */
+    background-color: green; /* Cor de fundo verde */
+    color: white; /* Cor do texto branca */
+    padding: 10px 20px; /* Espaçamento interno (cima/baixo, esquerda/direita) */
+    font-size: 18px; /* Tamanho da fonte */
+    border: none; /* Remove a borda */
+    cursor: pointer;
+    text-align: center;
+}
+
+/* styles.css */
+
+/* ... (seus estilos existentes) ... */
+
+/* Estilos para telas menores que 600px (celulares) */
+@media screen and (max-width: 600px) {
+    .intro {
+        font-size: 14px; /* Tamanho menor de fonte */
+    }
+
+    .captacao form {
+        width: 90%; /* Largura do formulário maior para dispositivos menores */
+    }
+
+    /* Mais ajustes de estilo conforme necessário */
+}
 
