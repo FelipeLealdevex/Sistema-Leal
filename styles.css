@@ -1,0 +1,87 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.recursos {
+    padding: 2em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+}
+
+/* styles.css */
+
+/* ... (seus estilos existentes) ... */
+
+.recursos {
+    text-align: center; /* Centraliza o texto */
+    padding: 2em;
+}
+
+.video-section {
+    text-align: center;
+    padding: 2em;
+    margin-top: 2em; /* Adicione esta linha para criar espaço acima do vídeo */
+}
+
+.video-section video {
+    display: block;
+    margin: 0 auto;
+}
+
+.intro {
+
+    text-align: center; /* Centraliza o texto */
+
+}
+
+
+
+.sobre {
+    color: black; /* Altera a cor do texto para preto */
+    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+    text-align: center; /* Centraliza o texto */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* styles.css */
+
+/* ... (seus estilos existentes) ... */
+
+.captacao {
+    text-align: center; /* Centraliza o formulário */
+    padding: 2em;
+}
+
+.captacao form {
+    display: inline-block; /* Centraliza horizontalmente e mantém os campos alinhados */
+    text-align: left; /* Alinha o texto à esquerda dentro do formulário */
+    width: 70%; /* Ajuste a largura conforme necessário */
+    max-width: 500px; /* Defina um máximo para a largura do formulário */
+}
+
+.captacao label,
+.captacao input,
+.captacao button {
+    display: block;
+    margin-bottom: 1em; /* Espaçamento entre os campos */
+    width: 100%; /* Preenche a largura do formulário */
+}
+
+
