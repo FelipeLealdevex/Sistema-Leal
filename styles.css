@@ -69,21 +69,6 @@ footer {
     padding: 2em;
 }
 
-.captacao form {
-    display: inline-block; /* Centraliza horizontalmente e mantém os campos alinhados */
-    text-align: left; /* Alinha o texto à esquerda dentro do formulário */
-    width: 70%; /* Ajuste a largura conforme necessário */
-    max-width: 500px; /* Defina um máximo para a largura do formulário */
-}
-
-.captacao label,
-.captacao input,
-.captacao button {
-    display: block;
-    margin-bottom: 1em; /* Espaçamento entre os campos */
-    width: 100%; /* Preenche a largura do formulário */
-}
-
 /* styles.css */
 
 /* ... (seus estilos existentes) ... */
@@ -118,3 +103,40 @@ footer {
     /* Mais ajustes de estilo conforme necessário */
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: top;
+}
+.content {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+.left {
+    flex: 1;
+}
+.left img {
+    max-width: 40%;
+    display: block;
+}
+.right {
+    flex: 2;
+    padding-left: 20px;
+}
+
+/* Suponhamos que você tenha uma classe chamada "foto" que você quer posicionar no topo */
+.left {
+    position: absolute; /* Define a posição absoluta para controlar a localização */
+    top: 0; /* Define a distância do topo como 0 para colocar a foto no topo */
+    left: 11%; /* Move a foto para o meio horizontal */
+    transform: translateX(-50%); /* Centraliza horizontalmente a foto */
+    max-width: 20%;
+
+  }
+  
